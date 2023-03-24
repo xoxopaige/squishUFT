@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="email"], input[type="text"], input[type="password"] 
+{
+    @apply w-full border my-3 py-2 px-4 rounded-xl;
+}
+/*hides unwanted scrollbar */
+html, body { overflow-x: hidden; height: 100%; width: 100%;}
+
+.login {
+    background: url("./assets/aziza.png"); 
+    min-width: 100vh;
+    min-height: 100vh;
+    background-size: 500px;
+}
+
+.header {
+    background-color: #a39fe1;
+}
+
+.landingheadline {
+    color: #ffffff;
+}
+ 
